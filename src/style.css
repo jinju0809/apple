@@ -1,0 +1,29 @@
+@media screen and (max-width: 500px){
+   
+}
+.apple{
+    margin: 0;
+    padding: 0;
+
+}
+.sidebar-box{
+    width: 300px;
+    margin: 0;
+    padding: 0 ;
+    float: left;
+}
+.sidebar-box ul {
+    list-style-type: none;
+}
+#profile-box img {
+    padding: 10% 30%;
+}
+.intro-box{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#intro-pic img {
+    width: 100%;
+}
