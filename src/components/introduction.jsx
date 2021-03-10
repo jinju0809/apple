@@ -4,12 +4,14 @@ export default class Introduction extends Component {
   render() {
     return (
       <div className="intro-box">
-        <div id="intro-pic">
-          <img src="images/introduction.jpg" alt=""/>
-        </div>
-        <div id="intro-text">
-          hi!!
-        </div>
+        <ul>
+
+        <li id="intro-pic" style={{backgroundImage: 'url(images/introduction.jpg)'}}>
+         <div id="intro-text">
+            <h1>Welcome!</h1>
+            </div>
+        </li>
+        </ul>
       </div>
     )
   }
