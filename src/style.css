@@ -1,13 +1,17 @@
 @media screen and (max-width: 500px){
    
 }
-.apple{
+body{
+    margin: 0;
+    padding: 0;
+}
+.apples{
     margin: 0;
     padding: 0;
 
 }
 .sidebar-box{
-    width: 300px;
+    width: 280px;
     height: 100%;
     margin: 0;
     padding: 0 ;
@@ -19,6 +23,11 @@
 }
 .sidebar-box ul {
     list-style-type: none;
+}
+.sidebar-box a {
+    text-decoration: none;
+    color: black;
+    
 }
 #profile-box img {
     padding: 10% 30%;
@@ -39,7 +48,7 @@
       background-repeat: no-repeat;
       background-size: cover;
       background-position: bottom center;
-      min-height: 500px;
+      min-height: 600px;
       position: relative; 
       padding: 0;
       margin: 0;

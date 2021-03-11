@@ -10,8 +10,8 @@ import Timeline from './components/timeline';
 
 function App() {
   return (
-    <div className="apple">
-     <Sidebar/>
+    <div className="apples">
+    <Sidebar/>
      <Introduction/> <About/> <Projects/><Timeline/>
     </div>
   );

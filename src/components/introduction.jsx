@@ -12,6 +12,7 @@ export default class Introduction extends Component {
             </div>
         </li>
         </ul>
+        what's happen?
       </div>
     )
   }
