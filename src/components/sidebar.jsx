@@ -12,10 +12,10 @@ export default class Sidebar extends Component {
     return (
       <div className="sidebar-box">
         <div id="profile-box">
-        <img src={process.env.PUBLIC_URL + "/images/profile.jpg"} alt="profile"/>
+         <img src={process.env.PUBLIC_URL + "/images/profile.jpg"} alt="profile"/>
           <h4>Jinju Youn</h4>
           <div id="profile-email">
-            <p>
+            <p>``
               <a href="mailto:jjyoun48@gmail.com">
                 <Icon color="#444" size={20} icon="envelop" />
               </a>
