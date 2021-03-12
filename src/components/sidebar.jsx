@@ -15,11 +15,11 @@ export default class Sidebar extends Component {
          <img src={process.env.PUBLIC_URL + "/images/profile.jpg"} alt="profile"/>
           <h4>Jinju Youn</h4>
           <div id="profile-email">
-            <p>``
+            <p>
               <a href="mailto:jjyoun48@gmail.com">
-                <Icon color="#444" size={20} icon="envelop" />
+              jjyoun48@gmail.com
               </a>
-                jjyoun48@gmail.com</p>
+            </p>
           </div>
         </div>
         <div id="menu-box">
@@ -31,15 +31,12 @@ export default class Sidebar extends Component {
           </ul>
         </div>
         <div id="contact-box">
-
-
           <ul>
             <li><a href="https://github.com/jinju0809"><Icon color="#444" size={20} icon="github" /></a></li>
             <li><a href="https://www.instagram.com/_thx_a_lot_/"><Icon color="#444" size={20} icon="instagram" /></a></li>
             <li><a href="https://jinju0809.github.io"><Icon color="#444" size={20} icon="blogger" /></a></li>
           </ul>
         </div>
-
         <div id="sidebar-foot-box">
           <p><small>Made with <Icon color="#444" size={20} icon="heart" /> and <Icon color="#444" size={20} icon="mug" /></small></p>
         </div>
