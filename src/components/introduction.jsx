@@ -5,7 +5,7 @@ export default class Introduction extends Component {
     return (
       <div className="intro-box">
         <ul>
-          <li id="intro-pic" style={{backgroundImage: 'url(' + process.env.PUBLIC_URL + '/images/introduction.jpg)'}}>
+          <li id="intro-pic" style={{backgroundImage: 'url(' + process.env.PUBLIC_URL + '/images/introduction2000.jpg)'}}>
             <div id="intro-text">
              <h1>Welcome!</h1>
             </div>
