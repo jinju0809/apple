@@ -108,12 +108,43 @@ li{
 #intro-text {
     padding: 15em 7em;
     margin: 0;
+    margin-bottom: 30px;
 }
-h1 {
-    margin: 0;
-    padding: 5px;
+#intro-text h1 span:hover{
+    color: #5CB06D;
 }
+
 #content-box{
     margin: 0;
-    padding: 0 30px;
+    padding: 0 3em;
+    border: 1px solid black;
+    padding-bottom: 30px;
+}
+
+/* about.jsx */
+#skills .skill{
+    margin: auto;
+    border: 1px solid green;
+    display: flex;
+}
+.skillIcon {
+    margin: auto;
+    border: 1px solid black;
+}
+#skills {
+    text-align: center;
+    border: 1px solid pink;
+    padding: 10px;
+}
+.skillContent {
+    border: 1px solid black;    
+    width: 80%;
+}
+
+/* timeline.jsx */
+#timeline-box {
+    margin-bottom: 30px;
+}
+h3{
+    padding-left: 1em;
 }
