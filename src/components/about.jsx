@@ -5,44 +5,36 @@ export default class About extends Component {
     return (
       <div id="about-box">
         <div>
-          <h3>Who am I?</h3>
+          <br/>
+          <h3>Who is Jinju Youn?</h3>
           <div id="content-box">
             <strong>생각하는 개발자 윤진주 입니다.</strong><br />
             <p>
-              늘 새로운 것에 관심이 많고 배우길 좋아합니다. 긍정적이고 발전하는 삶을 위해 노력합니다.
+            시대의 흐름을 쫓기보다 그 앞에서 물결을 만들어 내는 사람이 되고 싶은 윤진주 입니다. 
+            <br/><br/>
+            개발자의 매력은 끝없는 공부와 문제해결 후 얻는 성취감이라고 생각합니다. <br/>
+           꾸준한 관심을 지켜갈 수 있는 일이 무엇일까 생각하다 프로그래밍에 닿게 되었습니다.<br/>
+            이전의 경험을 지금의 환경에서 활용하며 사람들에게 편하고 쉬운 개발을 하는 개발자가 되고자 합니다. 
+            <br/><br/>
           </p>
             <div id="skills">
-              <div className="skill 1">
-                <div className="skillIcon 1">
+              <div className="skill">
+                <strong>Skills</strong>
+                <div className="skillContent">
+                 
+                  <div className="skillName">
+                    <a href=""><img src={process.env.PUBLIC_URL + '/images/java.png'} alt="java" /></a>
+                    <img src={process.env.PUBLIC_URL + '/images/oracle-small.png'} alt="java" />
+                    <img src={process.env.PUBLIC_URL + '/images/spring.png'} alt="java" />
+                    <img src={process.env.PUBLIC_URL + '/images/css3.png'} alt="java" />
+                    <img src={process.env.PUBLIC_URL + '/images/html5.png'} alt="java" />
+                    <img src={process.env.PUBLIC_URL + '/images/javascript.png'} alt="java" />
+                    <img src={process.env.PUBLIC_URL + '/images/jquery-small.png'} alt="java" />
+                    <img src={process.env.PUBLIC_URL + '/images/github-small.png'} alt="java" />
+                  </div>
                 </div>
-                <div className="skillContent 1">
-                 <div className="skillName">
-                    <img src={process.env.PUBLIC_URL + '/images/javascript.png'} alt="java"/>
-                    <img src={process.env.PUBLIC_URL + '/images/jquery-small.png'} alt="java"/>
-                    <img src={process.env.PUBLIC_URL + '/images/oracle-small.png'} alt="java"/>
-                 </div>
-                 <div className="skillName">
-                    <img src={process.env.PUBLIC_URL + '/images/css3.png'} alt="java"/>
-
-                 </div>
-                 <div className="skillName">
-                    <img src={process.env.PUBLIC_URL + '/images/html5.png'} alt="java"/>
-                </div>
-                 </div>
-              </div>
-              <div className="skill 2">
-                <div className="skillContent 2">
-                    <img src={process.env.PUBLIC_URL + '/images/java.png'} alt="java"/>
-                  Nunc dui urna, ultricies sit amet finibus ac, malesuada vitae libero. Fusce bibendum libero et diam mollis faucibus. Integer nec nisl porta, tempus diam vitae, commodo tortor. Nam porta urna eu tortor aliquet, eu vehicula metus vulputate. Mauris nec venenatis justo. Phasellus erat nisl, pharetra accumsan neque eu, rhoncus auctor arcu. Cras vitae augue nisi. Donec eget luctus tellus, at tempus libero. Vestibulum bibendum tellus leo, nec lacinia orci auctor et.
-              </div>
-              </div>
-              <div className="skill 3">
-                <div className="skillContent 3">
-                  Nunc dui urna, ultricies sit amet finibus ac, malesuada vitae libero. Fusce bibendum libero et diam mollis faucibus. Integer nec nisl porta, tempus diam vitae, commodo tortor. Nam porta urna eu tortor aliquet, eu vehicula metus vulputate. Mauris nec venenatis justo. Phasellus erat nisl, pharetra accumsan neque eu, rhoncus auctor arcu. Cras vitae augue nisi. Donec eget luctus tellus, at tempus libero. Vestibulum bibendum tellus leo, nec lacinia orci auctor et.
-              </div>
               </div>
             </div>
-
           </div>
         </div>
       </div>

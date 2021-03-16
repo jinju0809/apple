@@ -46,6 +46,11 @@ body{
     width: 60%;
     text-align: center;   
 }
+#profile-box h3{
+    margin-bottom: 0;
+    padding: 0;
+    
+}
 #profile-email p:hover{
     opacity: 50%;
 }
@@ -82,6 +87,7 @@ li{
 }
 
 /* introduction.jsx */
+
 .intro-box{
     width: 100%;
     margin: 0;
@@ -96,11 +102,10 @@ li{
     margin: 0;
     padding: 0;
 }
-#intro-pic {
+.intro-pic {
       background-repeat: no-repeat;
       background-size: cover;
       background-position: bottom center;
-      min-height: 500px;
       position: relative; 
       padding: 0;
       margin: 0;
@@ -117,28 +122,64 @@ li{
 #content-box{
     margin: 0;
     padding: 0 3em;
-    border: 1px solid black;
     padding-bottom: 30px;
 }
 
+#resume:hover{
+    opacity: 60%;
+}
+
 /* about.jsx */
+#about-box{
+    background-color: white;
+}
+#info{
+    padding: 30px;
+}
+.skillBack {
+    width: 400px;
+}
+
 #skills .skill{
     margin: auto;
-    border: 1px solid green;
-    display: flex;
+    /* display: flex; */
 }
-.skillIcon {
-    margin: auto;
-    border: 1px solid black;
-}
+
 #skills {
-    text-align: center;
-    border: 1px solid pink;
     padding: 10px;
 }
+.skillName {
+    margin-top: 20px;
+}
+.skillName img{
+    width: 50px;
+    margin: 10px;
+    transition: transform 0.5s;
+}
+.skillName img:hover{
+    transform: scale(1.3);
+}
 .skillContent {
-    border: 1px solid black;    
     width: 80%;
+    text-align: center;
+}
+
+/* projects.jsx */
+#content-box{
+    position: relative;
+}
+.projects{
+    display: flex;
+}
+.projectImg{
+    width: 250px;
+    position: relative;
+}
+.projectImg img{
+    width: 100%;
+}
+.proejctDesc p{
+    padding-left: 10px;
 }
 
 /* timeline.jsx */

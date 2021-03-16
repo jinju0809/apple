@@ -13,11 +13,11 @@ export default class Sidebar extends Component {
       <div className="sidebar-box">
         <div id="profile-box">
          <img src={process.env.PUBLIC_URL + "/images/profile.jpg"} alt="profile"/>
-          <h4>Jinju Youn</h4>
+          <h3>Jinju Youn</h3>
           <div id="profile-email">
             <p>
               <a href="mailto:jjyoun48@gmail.com">
-              jjyoun48@gmail.com
+              <small>jjyoun48@gmail.com</small>
               </a>
             </p>
           </div>
