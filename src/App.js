@@ -5,7 +5,7 @@ import Introduction from './components/introduction';
 import About from './components/about';
 import Projects from './components/projects';
 import Timeline from './components/timeline';
-
+import Contacts from './components/contact';
 
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
           <Introduction/>
           <About /> 
           <Projects />
-          <Timeline />
+          <Contacts/>
         </div>
       </div>
     </div>

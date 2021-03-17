@@ -6,7 +6,7 @@ export default class About extends Component {
       <div id="about-box">
         <div>
           <br/>
-          <h3>Who is Jinju Youn?</h3>
+          <h3 id="title3">Who is Jinju Youn?</h3>
           <div id="content-box">
             <strong>생각하는 개발자 윤진주 입니다.</strong><br />
             <p>
@@ -21,7 +21,6 @@ export default class About extends Component {
               <div className="skill">
                 <strong>Skills</strong>
                 <div className="skillContent">
-                 
                   <div className="skillName">
                     <a href=""><img src={process.env.PUBLIC_URL + '/images/java.png'} alt="java" /></a>
                     <img src={process.env.PUBLIC_URL + '/images/oracle-small.png'} alt="java" />

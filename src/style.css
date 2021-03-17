@@ -32,8 +32,9 @@ body{
     position: fixed;
     overflow: scroll;
     z-index: 1001;
+    background-color: #f5f2e9;
 }
-.sidebar-box ul {
+ul{
     list-style-type: none;
 }
 .sidebar-box a {
@@ -63,11 +64,17 @@ body{
     padding: 0;
 }
 li{
-    margin-top: 10px;
+    margin-top: 15px;
+}
+#menu-box ul li a{
+    transition: 0.3s ease;
+   
 }
 #menu-box ul li a:hover{
     opacity: 80%;
     color: teal;
+    border-bottom: 2px solid teal;
+    transition: all 280ms ease-in-out;
 }
 #contact-box ul {
     margin: 0;
@@ -170,22 +177,72 @@ li{
 }
 .projects{
     display: flex;
+    margin-bottom: 50px;
 }
 .projectImg{
-    width: 250px;
+    width: 30%;
     position: relative;
 }
 .projectImg img{
     width: 100%;
+    transition: transform 1s;
 }
-.proejctDesc p{
-    padding-left: 10px;
+.projectImg img:hover{
+    transform: scale(1.1);
+}
+.projectDesc{
+    width: 70%;
+}
+.projectDesc p{
+    padding: 5px 20px 0px 20px;
+    padding-top: 5px;
+    margin: 0;
+    font-size: 14px;
+}
+.projecta{
+    margin-left: 20px;
+}
+.projecta a {
+    font-size: 12px;
+    margin: 3px;
+    padding: 2px;
+    color: black;
+    text-decoration: none;
+    background-color: #bababa;
+    border-radius: 3px;
+}
+.projectDesc a:hover{
+    opacity: 60%;
+    background-color: wheat;
 }
 
 /* timeline.jsx */
 #timeline-box {
-    margin-bottom: 30px;
+    margin-bottom: 100px;
 }
-h3{
+#title3{
     padding-left: 1em;
+}
+.timeline-content {
+    border-left: 3px solid silver;
+    margin-left: 40px;
+    padding: 30px;
+}
+.timeline-icon {
+    position: relative;
+    left: -47px;
+}
+.timeline-icon span{
+    margin-left:10px;
+}
+/* contact.jsx */
+#contact{
+    text-align: center;    
+}
+#contact-page-box{
+    margin-bottom: 50px;
+}
+#contact-h3{
+    padding: 0;
+    margin: 0;
 }
