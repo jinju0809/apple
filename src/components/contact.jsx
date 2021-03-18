@@ -5,6 +5,7 @@ export default class Contacts extends Component {
     return (
       <div id="contact">
         <div>
+          <span id="contact"></span>
           <h3 id="contact-h3">CONTACT</h3>
           <br/>
           <div id="contact-page-box">

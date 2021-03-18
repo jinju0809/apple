@@ -27,7 +27,7 @@ export default class Sidebar extends Component {
             <li><a className="sideMenu" href="#introduction">Introduction</a> </li>
             <li><a className="sideMenu" href="#about">About</a></li>
             <li><a className="sideMenu" href="#projects">Projects</a></li>
-            <li><a className="sideMenu" href="#timeline">Timeline</a></li>
+            <li><a className="sideMenu" href="#contact">Contact</a></li>
           </ul>
         </div>
         <div id="contact-box">

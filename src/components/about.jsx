@@ -7,6 +7,7 @@ export default class About extends Component {
         <div>
           <br/>
           <h3 id="title3">Who is Jinju Youn?</h3>
+          <span id="about"></span>
           <div id="content-box">
             <strong>생각하는 개발자 윤진주 입니다.</strong><br />
             <p>

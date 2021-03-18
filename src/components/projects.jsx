@@ -7,6 +7,7 @@ export default class Projects extends Component {
     return (
       <div id="project-box">
         <div>
+          <span id="projects"></span>
           <h3 id="title3">PROJECTS</h3>
           <div id="content-box">
             <div className="projects 1">
