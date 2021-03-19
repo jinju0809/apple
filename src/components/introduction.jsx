@@ -4,7 +4,7 @@ import Icon from "../icon";
 export default class Introduction extends Component {
   render() {
     return (
-      <div className="intro-box">
+      <div id="intro-box">
         <section id="intro-sec">
         <ul>
           <li className="intro-pic grain" style={{backgroundImage: 'url(' + process.env.PUBLIC_URL + '/images/introduction2000.jpg)'}}>

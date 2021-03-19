@@ -3,9 +3,8 @@ import React, { Component } from 'react'
 export default class Contacts extends Component {
   render() {
     return (
-      <div id="contact">
+      <div id="contact-box">
         <div>
-          <span id="contact"></span>
           <h3 id="contact-h3">CONTACT</h3>
           <br/>
           <div id="contact-page-box">

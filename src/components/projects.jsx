@@ -6,10 +6,10 @@ export default class Projects extends Component {
   render() {
     return (
       <div id="project-box">
-        <div>
+        <div id="project-box2">
           <span id="projects"></span>
           <h3 id="title3">PROJECTS</h3>
-          <div id="content-box">
+          <div id="content-box2">
             <div className="projects 1">
               <div className="projectImg 1">
               <a href="https://www.github.com/jinju0809/lookat">

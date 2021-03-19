@@ -4,11 +4,9 @@ export default class About extends Component {
   render() {
     return (
       <div id="about-box">
-        <div>
-          <br/>
-          <h3 id="title3">Who is Jinju Youn?</h3>
           <span id="about"></span>
-          <div id="content-box">
+          <h3 id="title3">Who am I?</h3>
+          <div id="content1">
             <strong>생각하는 개발자 윤진주 입니다.</strong><br />
             <p>
             시대의 흐름을 쫓기보다 그 앞에서 물결을 만들어 내는 사람이 되고 싶은 윤진주 입니다. 
@@ -17,7 +15,7 @@ export default class About extends Component {
            꾸준한 관심을 지켜갈 수 있는 일이 무엇일까 생각하다 프로그래밍에 닿게 되었습니다.<br/>
             이전의 경험을 지금의 환경에서 활용하며 사람들에게 편하고 쉬운 개발을 하는 개발자가 되고자 합니다. 
             <br/><br/>
-          </p>
+             </p>
             <div id="skills">
               <div className="skill">
                 <strong>Skills</strong>
@@ -36,7 +34,6 @@ export default class About extends Component {
               </div>
             </div>
           </div>
-        </div>
       </div>
     )
   }

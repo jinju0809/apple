@@ -18,6 +18,7 @@ body{
 #main {
     width: calc(100% - 280px);
     float: right;
+    
 }
 
 
@@ -76,15 +77,15 @@ li{
     border-bottom: 2px solid teal;
     transition: all 280ms ease-in-out;
 }
-#contact-box ul {
+#link-box ul {
     margin: 0;
     padding: 0;
 }
-#contact-box {
+#link-box {
     text-align: center;
     margin-top: 20px;
 }
-#contact-box ul li:hover{
+#link-box ul li:hover{
     opacity: 50%;
 }
 
@@ -95,16 +96,15 @@ li{
 
 /* introduction.jsx */
 
-.intro-box{
+#intro-box{
     width: 100%;
     margin: 0;
     padding: 0;
-    min-height: 500px;
-    float: left;
+    height: 550px;
     overflow: hidden;
     clear: both;
 }
-.intro-box ul {
+#intro-box ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -139,14 +139,19 @@ li{
 /* about.jsx */
 #about-box{
     background-color: white;
+    padding: 30px 0px;
 }
-#info{
-    padding: 30px;
+#title3{
+    padding-left: 2em;
+    margin-bottom: 40px;
 }
-.skillBack {
-    width: 400px;
+#content1{
+    padding-bottom: 50px;
+    padding-left: 80px;
 }
-
+#content1 p {
+    margin-bottom: 50px;
+}
 #skills .skill{
     margin: auto;
     /* display: flex; */
@@ -172,8 +177,18 @@ li{
 }
 
 /* projects.jsx */
-#content-box{
-    position: relative;
+#project-box{
+    padding-top: 30px;
+    height: 500px;
+    margin-bottom: 50px;
+}
+#project-box2{
+    margin-top: 20px;
+}
+#content-box2{
+   margin-top: 50px;
+   padding: 0 3em;
+   padding-bottom: 30px;
 }
 .projects{
     display: flex;
@@ -220,9 +235,7 @@ li{
 #timeline-box {
     margin-bottom: 100px;
 }
-#title3{
-    padding-left: 1em;
-}
+
 .timeline-content {
     border-left: 3px solid silver;
     margin-left: 40px;
@@ -236,8 +249,9 @@ li{
     margin-left:10px;
 }
 /* contact.jsx */
-#contact{
+#contact-box{
     text-align: center;    
+    height: 300px;
 }
 #contact-page-box{
     margin-bottom: 50px;
