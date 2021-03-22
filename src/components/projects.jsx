@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
 import Icon from "../icon";
+import 'aos/dist/aos.css';
+
 
 
 export default class Projects extends Component {
   render() {
     return (
       <div id="project-box">
-        <div id="project-box2">
+        <div id="project-box2" data-aos="fade-up">
           <span id="projects"></span>
           <h3 id="title3">PROJECTS</h3>
           <div id="content-box2">

@@ -1,12 +1,13 @@
 import React, { Component } from 'react'
+import 'aos/dist/aos.css';
 
 export default class About extends Component {
   render() {
     return (
-      <div id="about-box">
-          <span id="about"></span>
-          <h3 id="title3">Who am I?</h3>
-          <div id="content1">
+      <div id="about-box" >
+          <span id="about" ></span>
+          <h3 id="title3" data-aos="fade-up">Who am I?</h3>
+          <div id="content1" data-aos="fade-up">
             <strong>생각하는 개발자 윤진주 입니다.</strong><br />
             <p>
             시대의 흐름을 쫓기보다 그 앞에서 물결을 만들어 내는 사람이 되고 싶은 윤진주 입니다. 
