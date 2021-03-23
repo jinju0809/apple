@@ -7,7 +7,7 @@ export default class Introduction extends Component {
       <div id="intro-box">
         <section id="intro-sec">
         <ul>
-          <li className="intro-pic grain" style={{backgroundImage: 'url(' + process.env.PUBLIC_URL + '/images/introduction2000.jpg)'}}>
+          <li className="intro-pic grain" style={{backgroundImage: 'url(' + process.env.PUBLIC_URL + '/images/introduction_lower.jpg)'}}>
             <span id="introduction"></span>
             <div id="intro-text">
              <h1>
